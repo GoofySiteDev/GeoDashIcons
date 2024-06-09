@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Geometry Dash Icon</title>
+    <script src = "icon.js"></script>
+</head>
+<body>
+    <image src = "TItle.png" width = "1050" height = "60"></image>
+    <br>
+    <br>
+    <br>
+    <span>
+    <div class = "holder">
+        <h3 class = "titles">Choose Your Cube Below ⬇️</h3>
+        <select id = "iconselect" onchange = "iconFix()">
+            <option value = "Default_1">Default 1</option>
+            <option value = "Default_2">Default 2</option>
+            <option value = "Default_3">Default 3</option>
+            <option value = "Default_4">Default 4</option>
+            <option value = "Stereo_Madness">Stereo Madness</option>
+            <option value = "Back_On_Track">Back On Track</option>
+            <option value = "Polargeist">Polargeist</option>
+            <option value = "Dry_Out">Dry Out</option>
+            <option value = "Base_After_Base">Base After Base</option>
+            <option value = "Cant_Let_Go">Can't Let Go</option>
+            <option value = "Jumper">Jumper</option>
+            <option value = "T_U_M">10 User Made Levels</option>
+            <option value = "Supporter">Supporter</option>
+            <option value = "Time_Machine">Time Machine</option>
+            <option value = "Cycles_Prac">Cycles Practice</option>
+            <option value = "Cycles">Cycles</option>
+            <option value = "X_Step_Prac">Xstep Practice</option>
+            <option value = "Xstep">Xstep</option>
+            <option value = "1Demon">1 Demon</option>
+            <option value = "2Demon">2 Demon</option>
+            <option value = "3Demon">3 Demon</option>
+            <option value = "4Demon">4 Demon</option>
+        </select>
+        <br>
+        <br>
+        <br>
+        <image id = "icondisplay" width = 100 height = 100 src = "https://static.wikia.nocookie.net/geometry-dash/images/d/d9/Cube001.png/"></image>
+    </div>
+    <div class = "holder">
+        <h3 class = "titles">Choose Your Ball Below ⬇️</h3>
+        <select id = "ballselect" onchange = "ballFix()">
+            <option value = "Default_1">Default 1</option>
+            <option value = "Default_1">10 secret coins</option>
+            <option value = "Default_1">35 secret coins</option>
+            <option value = "Default_1">50 secret</option>
+            <option value = "Default_1">20 demons</option>
+            <option value = "Default_1">70 secret coins</option>
+            <option value = "Default_1">20 mappacks</option>
+        </select>
+        <br>
+        <br>
+        <br>
+        <image id = "balldisplay" width = 100 height = 100 src = "https://static.wikia.nocookie.net/geometry-dash/images/5/54/Ball01.png"></image>
+    </div>
+    <div class = "holder" id = "shipdiv">
+        <h3 class = "titles">Choose Your Ship Below ⬇️</h3>
+        <select id = "shipselect" onchange = "shipFix()">
+            <option value = "Default_1">Default 1</option>
+            <option value = "Default_1">Clutterfunk</option>
+            <option value = "Default_1">5 demons</option>
+            <option value = "Default_1">500 stars</option>
+            <option value = "Default_1">600 stars</option>
+            <option value = "Default_1">10 demons</option>
+        </select>
+        <br>
+        <br>
+        <br>
+        <image id = "shipdisplay" width = 100 height = 66 src = "https://static.wikia.nocookie.net/geometry-dash/images/d/df/Ship01.png"></image>
+    </div>
+    <div class = "holder">
+        <h3 class = "titles">Choose Your Wave Below ⬇️</h3>
+        <select id = "waveselect" onchange = "waveFix()">
+            <option value = "Default_1">Default 1</option>
+            <option value = "Default_1">1 user coin</option>
+            <option value = "Default_1">20000 attempts</option>
+            <option value = "Default_1">20 user coins</option>
+        </select>
+        <br>
+        <br>
+        <br>
+        <image id = "wavedisplay" width = 80 height = 100 src = "https://static.wikia.nocookie.net/geometry-dash/images/2/27/Wave01.png"></image>
+    </div>
+    <div class = "holder2">
+        <h3 class = "titles">Choose Your UFO Below ⬇️</h3>
+        <select id = "ufoselect" onchange = "ufoFix()">
+            <option value = "Default_1">Default 1</option>
+            <option value = "Default_1">Clubstep</option>
+            <option value = "Default_1">20 Secret Coins</option>
+            <option value = "Default_1">45 Secret Coins</option>
+        </select>
+        <br>
+        <image id = "ufodisplay" width = 100  src = "https://static.wikia.nocookie.net/geometry-dash/images/a/a0/UFO01.png"></image>
+    </div>
+    <div class = "holder2">
+        <h3 class = "titles">Choose Your Spider Below ⬇️</h3>
+        <select id = "spiderselect" onchange = "spiderFix()">
+            <option value = "Default_1">Default 1</option>
+            <option value = "Default_1">Shop 2000 orbs</option>
+            <option value = "Default_1">Secret Shop 3000</option>
+            <option value = "Default_1">8000 stars</option>
+        </select>
+        <br>
+        <image id = "spiderdisplay" width = 100  src = "https://static.wikia.nocookie.net/geometry-dash/images/f/f0/Spider01.png"></image>
+    </div>
+    <div class = "holder2">
+        <h3 class = "titles">Choose Your Robot Below ⬇️</h3>
+        <select id = "robotselect" onchange = "robotFix()">
+            <option value = "Default_1">Default 1</option>
+            <option value = "Default_1">Vault Code</option>
+            <option value = "Default_1">Geometrical Dominator</option>
+            <option value = "Default_1">200 User Coins</option>
+        </select>
+        <br>
+        <image id = "robotdisplay" width = 100  src = "https://static.wikia.nocookie.net/geometry-dash/images/5/56/Robot01.png"></image>
+    </div>
+    
+</span>
+<br>
+<br>
+<br>
+<button id = "wude" onclick="analyze()">Give A Rude Character Analysis</button>
+<p id = "cubetext"></p>
+<p id = "shiptext"></p>
+<p id = "balltext"></p>
+<p id = "wavetext"></p>\
+</body>

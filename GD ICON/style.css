@@ -1,0 +1,40 @@
+body{
+    background-color: black;
+}
+
+.titles{
+    color:white;
+}
+
+.holder{
+    display: inline-block;
+    padding-left: 30px;
+}
+
+#shipdiv{
+    padding-bottom:90px;
+}
+
+#wude{
+    height: 30px;
+    width: 200px;
+    background-color: darkred;
+    color: white;
+}
+
+p{
+    color:white
+}
+
+#ufodisplay{
+    padding-top: 60px;
+}
+
+.holder2{
+    display: inline-block;
+    padding-left: 30px;
+}
+
+#spiderdisplay{
+    padding-top: 10px;
+}
